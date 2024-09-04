@@ -1,0 +1,106 @@
+body{
+    /* width: 1200px; */
+    /* border: 1px solid gray; */
+    margin: auto;
+    background-color: rgb(241, 234, 234);
+}
+
+li{
+    list-style: none;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(17, 13, 246);
+    background-color: transparent;
+  }
+  
+  
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color:#48ff00;
+
+}
+.menu{
+    font-size: 20px;
+   
+}
+.menu:hover{
+    color: rgb(246, 244, 244);
+    cursor: pointer;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(21, 238, 54);
+    border-radius: .5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+.btn :hover{
+    background-color: rgb(255, 25, 25);
+}
+
+.btn1{
+    background-color: #14dd54; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.btn1:hover{
+    background-color: red;
+color: red;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+li{
+    list-style: none;
+}
+footer{
+    position:relative; 
+    display: grid;
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(66deg, #000000 -5.25%, #0e1010 46.76%, #070d0f 98.77%);;
+    margin-top: 20px;
+}
